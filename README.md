@@ -1,1 +1,1 @@
-# spree_pmp
+# pmp_portal
