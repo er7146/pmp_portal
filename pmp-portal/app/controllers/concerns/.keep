@@ -1,1 +1,3 @@
 rails s -b $IP -p $PORT
+
+before_filter :authenticate_spree_user!
