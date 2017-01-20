@@ -1,3 +1,12 @@
 rails s -b $IP -p $PORT
 
+git status
+git add . 
+git commit -m "First commit"
+git push -u origin master
+http://nereida.deioc.ull.es/~lpp/perlexamples/node1143.html   --git instructions for c9users
+
+https://pmp-portal-er7146-1.c9users.io/
+
 before_filter :authenticate_spree_user!
+
