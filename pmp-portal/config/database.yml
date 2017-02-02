@@ -14,6 +14,12 @@
 # Configure Using Gemfile
 # gem 'pg'
 #
+
+production:
+  url:  <%= ENV["DATABASE_URL"] %>
+  pool: <%= ENV["DB_POOL"] || ENV['RAILS_MAX_THREADS'] || 5 %>
+  
+  
 default: &default
   adapter: postgresql
   encoding: SQL_ASCII
